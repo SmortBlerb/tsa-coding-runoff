@@ -97,6 +97,7 @@ public class MorseCodeTranslator {
             try {
                 if(letter == '.') Thread.sleep(200);
                 else if (letter == '-') Thread.sleep(600);
+                else if (letter == '/') Thread.sleep(600);
                 else Thread.sleep(300);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
