@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class MazeMaker {
 	//creates the variables, the wall, path, and solution should not be changed so they are constants
-    private static final char WALL = '#';
+    private static final char WALL = '█';
     private static final char PATH = ' ';
     private static final char SOLUTION = '.';
     private char[][] maze;
