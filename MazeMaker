@@ -2,9 +2,9 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class MazeMaker {
-    private static char WALL = '#';
-    private static char PATH = ' ';
-    private static char SOLUTION = '.';
+    private static char final WALL = '#';
+    private static char final PATH = ' ';
+    private static char final SOLUTION = '.';
     private char[][] maze;
     private int rows;
     private int cols;
